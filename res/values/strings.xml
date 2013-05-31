@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">欢迎使用悠乐手机测试程序!</string>
+    <string name="text_mian_tip">请选择测试内容：</string>
+    <string name="app_name">AutoTest</string>
+    <string name="btn_autotest">一键测试所选项目</string>
+    <string name="test_return">返回</string>
+    <string name="test_wifi">WIFI</string>
+    <string name="test_bluetooth">蓝牙 </string>
+    <string name="test_gps">GPS </string>
+    <string name="test_airplane">飞行模式 </string>
+    <string name="test_syssleep">系统休眠 </string>
+    <string name="test_screen">屏幕开关</string>
+    <string name="test_reboot">手机重启</string>
+    <string name="test_audio">音频测试</string>
+    <string name="test_sms">收发短信</string>
+    <string name="test_auto">自动测试以上所有项目</string>
+    <string name="test_start">开始测试</string>
+    <string name="test_stop">终止测试</string>
+    <string name="sms_stop_send">停止发送</string>
+    <string name="test_wait_statechange">状态切换间隔时间(秒)</string>
+    <string name="test_wait_sms">发送短信的间隔时间(秒)</string>
+    <string name="test_number">请输入接收者的电话号码</string>
+    <string name="test_sms_content">请输入短信内容</string>
+    <string name="audio_speaker_on">开启扬声器</string>
+    <string name="audio_speaker_off">关闭扬声器</string>
+    <string name="audio_headphone_on">开启听筒</string>
+    <string name="audio_headphone_off">关闭听筒</string>
+    <string name="sys_sleep_text1">系统至少等待多久进入睡眠（秒）:</string>
+    <string name="sys_sleep_text2">等待多久唤醒系统,要明显大于上面的时间（秒）:</string>
+    <string name="reboot_wait_text">请设置每次等待多久重启系统(秒)</string>
+    <string name="test_times">测试次数：</string>
+    <string name="test_sms_times">发送次数:</string>
+    <string name="test_phone_num">发送给谁？(电话号码)：</string>
+    <string name="number">号码不能为空!</string>
+    <string name="all_send">发送完毕！ 共尝试发送次数：</string>
+    <string name="btn_wipedatatest">恢复出厂设置(wipe data)</string>
+    <string name="autotest_selected_null">您尚未选择要进行测试的项目！</string>
+    <string name="autotest_clear_selected">重新选择</string>
+    <string name="btntest_pause">暂停</string>
+    <string name="btntest_continue">继续</string>
+    <string name="alarm_text">"倒计时结束时执行 Wipe Data\n即恢复出厂设置！\n\n\t\t倒计时："</string>
+    <string name="cleartest_error_sdcard_unmonted">存储卡不可用，无法进行测试！</string>
+    <string name="autotest_stop">自动测试终止！</string>
+    <string name="autotest_stop_one">终止此项测试</string>
+    <string name="autotest_stop_all">终止自动测试过程</string>
+    <string name="text_speaker">扬声器</string>
+    <string name="text_headset">耳机</string>
+    <string name="text_earpiece">听筒</string>
+    <string name="autotest_sms_num_null">您尚未进行过短信测试，未记录短信接收者电话号码。</string>
+    
+    <string name="audio_test_time">测试时间（秒）：</string>
+    <string name="audio_test_waittime">听筒与扬声器切换间隔时间（秒）：</string>
+    <string name="audio_test_alltime_hint">默认为300</string>
+
+    <string name="hint_default_2">默认为 2</string>
+    <string name="hint_default_5">默认为 5</string>
+    <string name="hint_default_10">默认为 10</string>
+    <string name="hint_default_20">默认为 20</string>
+    <string name="hint_default_300">默认为 300</string>
+    <string name="hint_default_101">默认为 101</string>
+    
+    <string name="text_select_calltest">请选择本手机所要进行的操作：</string>
+    <string name="btntext_docall">拨打电话</string>
+    <string name="btntext_doanswer">接听电话</string>
+    
+    <string name="text_receive_number">请设置自动接听的来电号码：</string>
+    <string name="text_accept_wait_time">请设置通话时间(秒)：</string>
+    <string name="test_receivecall_start">开始等待来电</string>
+    <string name="test_receivecall_stop">结束等待</string>
+    <string name="test_receivecall_return">返回</string>
+    <string name="phone_number_error">号码有误</string>
+    <string name="test_phone_call">通话测试</string>
+    
+    <string name="text_call_number">请设置要拨打的电话号码:</string>
+    <string name="text_call_times">请设置呼叫次数：</string>
+    <string name="text_call_wait_time">请设置对方挂断后再等待多久进行呼叫：</string>
+    
+    <string name="text_aboout_title">关于</string>
+    <string name="text_aboout">北京悠乐无限科技有限公司</string>
+    <string name="text_aboout_time">版权所有 2012</string>
+    
+</resources>

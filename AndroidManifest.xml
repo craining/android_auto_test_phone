@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.easyandroid.autotest"
+    android:sharedUserId="android.uid.system">
+
+    <!--  -->
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission android:name="android.permission.REBOOT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".AutoTestActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".testactivities.WifiTestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".testactivities.AirplaneTestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".testactivities.GpsTestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".testactivities.ScreenTestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".testactivities.SMSTestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".testactivities.SysSleepTestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".testactivities.BluetoothTestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".testactivities.RebootTestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TestSelectedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".testactivities.ClearDataTestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".testactivities.AudioTestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".testactivities.CallTestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".receivecalltest.AutoCallReceiveTestActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".docalltest.CallService"
+            android:label="@string/app_name" />
+
+        <activity
+            android:name=".docalltest.AutoCallTestActivity"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name=".receiver.AutoTestReceiver" >
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

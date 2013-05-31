@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/test_audio_state"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip" 
+            android:textColor="@color/color_red"
+            android:layout_marginLeft="40dip"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:text="@string/audio_test_time" 
+            android:textColor="@color/color_black"/>
+
+        <EditText
+            android:id="@+id/edit_audio_alltime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:hint="@string/audio_test_alltime_hint"
+            android:numeric="integer" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:text="@string/audio_test_waittime" 
+            android:textColor="@color/color_black"/>
+
+        <EditText
+            android:id="@+id/edit_audio_waite"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:hint="@string/hint_default_10"
+            android:numeric="integer" />
+
+        <Button
+            android:id="@+id/btn_audio_start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:text="@string/test_start"
+            android:textSize="25dip" />
+
+        <Button
+            android:id="@+id/btn_audio_stop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:text="@string/test_stop"
+            android:textSize="25dip" />
+
+        <Button
+            android:id="@+id/btn_audio_return"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dip"
+            android:layout_marginTop="20dip"
+            android:text="@string/test_return"
+            android:textSize="25dip" />
+    </LinearLayout>
+
+</ScrollView>
